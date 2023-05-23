@@ -1,0 +1,194 @@
+ @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Darumadrop+One&family=Foldit:wght@100&family=Lobster&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+}
+html{
+    62.5%
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    overflow-x: hidden;
+    background-image:linear-gradient(135deg,aqua,blue);
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#card{
+    position: relative;
+    top:20rem;
+    width: 50rem;
+    height:80rem;
+    background-image: linear-gradient(135deg,blue,white);
+    border-radius:6rem;
+    box-shadow:-.6rem -.6rem 3.5rem rgba(55,255,255,10);
+
+    
+}
+#card:hover{
+    box-shadow:-1rem -1rem 3.5rem rgba(255,280,200,10);
+}
+.smain{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    width:30rem;
+    top:5rem;
+    left:2rem;
+}
+.smain input{
+   position: relative;
+   width: 70rem;
+   height:6rem;
+   left:7rem;
+   border-radius: 5rem;
+   border: none;
+   color:black;
+   font-weight: 800;
+   font-family:'Playfair Display', serif;
+   font-size: 2rem;
+   top: -2rem;
+   padding-left: 2rem;
+   transition: .5s ease;
+}
+.smain input::placeholder{
+    color: black;
+    font-weight: 800;
+    position: relative;
+    font-size: 2rem;
+    font-family:'Playfair Display', serif;
+    left:4rem;
+}
+.smain input:hover{
+    border: .4rem solid red;
+}
+.fa.fa-search{
+    position: relative;
+    z-index: 100;
+    font-size: 5rem;
+    color:white;
+   bottom:2.2rem;
+   left:9rem;
+}
+.imain{
+    position: relative;
+    top: 5rem;
+    
+}
+.imain img{
+    width:35rem;
+}
+.text{
+    color: white;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    line-height:4rem;
+    top:62rem;
+    position: fixed;
+    left: 20rem;
+    
+}
+.text p{
+    font-size:6rem;
+    font-weight: bold;
+    position: relative;
+    top:2rem;
+    color: white;
+    
+}
+.text h1{
+    font-size: 4rem;
+    margin-top: 7rem;
+    color: black;
+}
+.icon{
+   position: relative;
+  display:flex;
+ justify-content: space-between;
+ align-items: center;
+ top:86rem;
+ left:10rem;
+ position: fixed;
+ 
+ 
+}
+.humidity img{
+    position: relative;
+    width:10rem;
+    right:2rem;
+    margin-left:4rem;
+    
+}
+.wind img{
+    width:20rem;
+    position: relative;
+    right:7rem;
+    margin-left:4rem;
+}
+.humidity{
+    position: relative;
+    display:flex;
+    right: 4rem;
+}
+.wind{
+    position: relative;
+    display:flex;
+    
+}
+.humidity span{
+    color:red;
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+.humidity p{
+    color:white;
+    font-size:2rem;
+    position: relative;
+    right:5rem;
+    width: 0;
+    top:4rem;
+    font-weight: bold;
+    color: black;
+    
+}
+.wind span{
+    color:white;
+    font-size:2rem;
+    position: relative;
+    right: 11rem;
+    font-weight: bold;
+    color: red;
+}
+.wind p{
+    color:white;
+    font-size:2rem;
+    position: relative;
+    right:19rem;
+    font-weight: bold;
+    top:4rem;
+    width: 0;
+    color: black;
+}
+.weathera{
+    height: 6rem;
+}
+@media(max-width:998px){
+    html{
+      font-size:102%;
+      overflow: hidden;
+    }
+}
+@media(max-width:480px){
+    html{
+        font-size:37%;
+        overflow-x: hidden;
+    }
+}
